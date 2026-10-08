@@ -1,0 +1,22 @@
+[
+  {"id": "own-msg-01", "category": "action", "text": "text Maria I’ll be there in 20 minutes", "expectedTool": "scheduleMessage", "expectedArgs": {"recipientID": "maria-f"}, "author": "ixhen"},
+  {"id": "own-rem-01", "category": "action", "text": "remind me at 6 to call John", "expectedTool": "setReminder", "expectedArgs": {}, "author": "ixhen"},
+  {"id": "own-msg-02", "category": "action", "text": "send Mario a message saying I’m running late", "expectedTool": "scheduleMessage", "expectedArgs": {"recipientID": "mario-t"}, "author": "ixhen"},
+  {"id": "own-note-01", "category": "action", "text": "make a note to check the hotel prices", "expectedTool": "createNote", "expectedArgs": {}, "author": "ixhen"},
+  {"id": "own-rem-02", "category": "action", "text": "remind me tomorrow morning to email Theo R", "expectedTool": "setReminder", "expectedArgs": {}, "author": "ixhen"},
+  {"id": "own-msg-03", "category": "action", "text": "text Claudia are we still on for tonight?", "expectedTool": "scheduleMessage", "expectedArgs": {"recipientID": "claudia-d"}, "author": "ixhen"},
+  {"id": "own-note-02", "category": "action", "text": "note that I need to renew my passport", "expectedTool": "createNote", "expectedArgs": {}, "author": "ixhen"},
+  {"id": "own-rem-03", "category": "action", "text": "remind me next Friday to book the train", "expectedTool": "setReminder", "expectedArgs": {}, "author": "ixhen"},
+  {"id": "own-msg-04", "category": "action", "text": "message Alex D and ask if he’s free for lunch", "expectedTool": "scheduleMessage", "expectedArgs": {"recipientID": "alex-d"}, "author": "ixhen"},
+  {"id": "own-note-03", "category": "action", "text": "make a note to buy coffee on the way home", "expectedTool": "createNote", "expectedArgs": {}, "author": "ixhen"},
+  {"id": "seed-quiet-01", "category": "statement", "text": "Mario never replied to me", "expectedTool": null, "expectedArgs": null, "author": "claude-example"},
+  {"id": "seed-quiet-02", "category": "question", "text": "did I already message John?", "expectedTool": null, "expectedArgs": null, "author": "claude-example"},
+  {"id": "own-quiet-01", "category": "statement", "text": "I think Maria is away this week", "expectedTool": null, "expectedArgs": null, "author": "ixhen"},
+  {"id": "own-quiet-02", "category": "question", "text": "when did Claudia text me?", "expectedTool": null, "expectedArgs": null, "author": "ixhen"},
+  {"id": "own-quiet-03", "category": "negation", "text": "don’t message Alex D", "expectedTool": null, "expectedArgs": null, "author": "ixhen"},
+  {"id": "own-quiet-04", "category": "past", "text": "I already reminded Theo R yesterday", "expectedTool": null, "expectedArgs": null, "author": "ixhen"},
+  {"id": "own-quiet-05", "category": "question", "text": "did I make a note about the hotel?", "expectedTool": null, "expectedArgs": null, "author": "ixhen"},
+  {"id": "own-quiet-06", "category": "reported", "text": "John said he’d call me later", "expectedTool": null, "expectedArgs": null, "author": "ixhen"},
+  {"id": "own-quiet-07", "category": "negation", "text": "I don’t need a reminder for that", "expectedTool": null, "expectedArgs": null, "author": "ixhen"},
+  {"id": "own-quiet-08", "category": "question", "text": "what did Maria say about dinner?", "expectedTool": null, "expectedArgs": null, "author": "ixhen"}
+]
